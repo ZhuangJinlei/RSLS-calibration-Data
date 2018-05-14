@@ -1,0 +1,14 @@
+This file include the data for calibration RSLS.
+
+1 The file "linear stage orientation" includes three point clouds files of standard sphere, with filename extension as '.asc', which are used for calibrating the linear stage orientation. The file can be open with text editor, or visually displayed by 'Geimagic Qualify' software.
+
+2 The file "hand-eye calibration" includes four point clouds files of the two spheres, with filename extension as '.raw', which are use for hand-eye calibtation. The file can be visually displayed and edited by 'Geimagic Qualify' software. It sholud be noticed that the axis angle of industrial robot is asle stored in the files. Some photos of the expriment setup is also included in the file.
+
+
+3 The file "robot-hand-eye calibration" includes data for robot-hand-eye calibation. The sphere is placed at 16 different positions and six differnent point clouds of the sphere are acquired by SLS, with filename extension as '.mtl'.In each file, the first two lines are the axis angle of the industrial robot, and the rest is the point clouds of the sphere. Also, some photos of the expriment setup is also included in the file, with filename extension as ''.jpg.
+
+
+4 The file "data for absolute accuracy analysis with laser tracker" includes point clouds of reflector, axis angle of industrial robot and reflector coordinates measured by laser tracker. The files named with 'sphereGroupX.mtl' are the point clouds of reflector acquired by SLS. The file 'Angs.mtl' are the axis angle of industrial robot at different positions. The file 'long.xit64' is reflector coordinates measured by laser tracker, which can be read by  software 'SpatialAnalyzer'.
+
+
+5 The file "data for absolute accuracy analysis with well designed workpiece" includes the points of the 8 plug gauges captured by RSLS.
